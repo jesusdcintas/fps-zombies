@@ -27,7 +27,7 @@
                     "name": "Fire",
                     "type": "Button",
                     "id": "a299f9af-95f1-47fd-bf72-fec244e341fd",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -45,7 +45,7 @@
                     "name": "Reload",
                     "type": "Button",
                     "id": "3c4ac825-58e8-487f-8ba7-80b959d2a946",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -147,6 +147,15 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "Hold",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Flashlight",
+                    "type": "Button",
+                    "id": "f7a8c9d0-1e2f-4a5b-8c7d-9e0f1a2b3c4d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
                     "initialStateCheck": false
                 }
             ],
@@ -511,6 +520,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Tutorial",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7c8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e2f",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flashlight",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
